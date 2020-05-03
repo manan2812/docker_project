@@ -24,10 +24,10 @@ You will see the following output with details about your app, webserver, and db
 
 Output
 
-CONTAINER ID        NAMES               IMAGE                             STATUS              PORTS
+CONTAINER ID          NAMES                 IMAGE                               STATUS                PORTS
 
-c31b7b3251e0        db                  mysql:5.7.22                      Up 2 seconds        0.0.0.0:3306->3306/tcp
+c31b7b3251e0          db                    mysql:5.7.22                        Up 2 seconds          0.0.0.0:3306->3306/tcp
 
-ed5a69704580        app                 digitalocean.com/php              Up 2 seconds        9000/tcp
+ed5a69704580            app                     digitalocean.com/php                  Up 2 seconds              9000/tcp
 
-5ce4ee31d7c0        webserver           nginx:alpine                      Up 2 seconds        0
+5ce4ee31d7c0          webserver             nginx:alpine                          Up 2 seconds              0
